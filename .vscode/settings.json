@@ -1,0 +1,19 @@
+{
+    "fortran.notifications.releaseNotes": false,
+    "fortran.fortls.path": "/opt/homebrew/bin/fortls",
+    "fortran.linter.includePaths": [
+        "${workspaceFolder}/../linalg/build/gfortran_F628532E9DD279D9/"
+    ],
+    "fortran.logging.level": "Debug",
+    "fortran.linter.extraArgs": [
+        "-L${workspaceFolder}/../linalg/build/gfortran_F6DF39280A7CA76F/linalg",
+        "-llinalg",
+        "-frameworkAccelerate",
+        "-lm",
+        "-ldl",
+    ],
+    "fortran.fortls.directories": [
+        "./../linalg/build/gfortran_F628532E9DD279D9/",
+        "./../linalg/src/"
+    ]
+}
