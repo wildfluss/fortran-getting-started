@@ -46,6 +46,8 @@ $ find ../linalg/build/ -name liblinalg.a
 ../linalg/build//gfortran_F6DF39280A7CA76F/linalg/liblinalg.a
 ```
 
+![](./autocomplete.png)
+
 ## References 
 
 interpolation like this `${workspaceFolder}/include/**` should be there https://github.com/fortran-lang/vscode-fortran-support/issues/86#issuecomment-971564456
